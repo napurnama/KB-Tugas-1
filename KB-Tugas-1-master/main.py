@@ -9,10 +9,10 @@ gen_amt = 12
 test_node = Node(goal, state)
 
 # uncomment one
-dfs(test_node, gen_amt)
+# dfs(test_node, gen_amt)
 # bfs(test_node)
 # mismatched_tiles_solution(test_node)
 # manhattan_distance_solution(test_node)
-# simple_hill_climb(test_node)
+simple_hill_climb(test_node)
 
 print(f"""{test_node.amt} node(s) expanded.""")
